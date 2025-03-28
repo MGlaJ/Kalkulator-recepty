@@ -1,0 +1,109 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button, .link-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.link-btn {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link-btn:hover {
+    background-color: #218838;
+}
+
+.result-box, .periods-box, .tips-box {
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.result-box {
+    background-color: #e0f7ff;
+}
+
+.periods-box {
+    background-color: #ffe0f7;
+}
+
+.tips-box {
+    background-color: #d4edda;
+}
+
+.bold-date {
+    font-weight: bold;
+}
+
+
+html, body {
+    scroll-behavior: smooth;
+}
