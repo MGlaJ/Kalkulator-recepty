@@ -21,7 +21,7 @@ document.getElementById('calculateLostBtn').addEventListener('click', function()
     let komunikat4 = "";
 
     if (minelo > 30) {
-        let przepadlo = Math.floor(minelo * dawk);
+        let przepadlo = Math.ceil(minelo * dawk);
         komunikat4 = `Od wystawienia recepty do jej pierwszej realizacji minęło ${minelo} dni.<br>`;
         komunikat4 += `W tym czasie pacjent zużyłby ${przepadlo} szt. leku.`;
     } else {
